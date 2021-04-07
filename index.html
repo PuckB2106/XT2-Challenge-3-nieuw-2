@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>XT2 Challenge 3</title>
+		<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/grid.css">
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+
+		<!-- Geocoder assets -->
+		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+		<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" />
+	 </head>
+	<body>
+		<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+      type="text/css">
+<!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+    <div class="grid-container">
+      <div class="logo">
+        <img class="logo-groote" src="images/SpaceX-Logo.svg.png">
+        </div>
+      <div class="hoofd-titel">
+        <p class="tekst">Landingsmap</p>
+      </div>
+      <div class="grid-item-1">
+				<div id="geocoder"></div>
+				<div id="map" class="map"></div>
+				<input type="button" id="citybutton" value="Search weather">
+          </div>
+      <div class="grid-item-2">
+				<h1 class="hoofdkopje"> Temperatuur </h1>
+				<article id="weer" class="weer">&#176;C</article>
+        </div>
+      <div class="grid-item-3">
+				<h1 class="hoofdkopje"> Weerstatistieken </h1>
+				<article id="weersverwachting" class="weersverwachting"></article>
+        </div>
+      <div class="grid-item-4">
+				<h1 class="hoofdkopje"> Ruimte nieuws</h1>
+				<article id="nieuws" class="nieuws"></article>
+        </div>
+			<div class="extra-tekst">
+				<img class="alien" src="images/alien.png">
+				<p class="tekst-2"> Bedankt voor het deelnemen aan de reis naar Mars namens SpaceX!</p>
+    </div>
+
+	</body>
+</html>
